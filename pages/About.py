@@ -82,4 +82,4 @@ st.markdown("""
 
                👉 [Open in Google Colab](https://colab.research.google.com/drive/1wos94FXXPruMNs3rjw-qbymTlTzLixhI#scrollTo=VXsUkzGtAPyn)
                """)
-Add About page to Streamlit app
+#Add About page to Streamlit app
