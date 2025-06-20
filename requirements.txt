@@ -4,6 +4,7 @@ pandas
 numpy
 matplotlib
 pickle
-base64
+xgboost
 seaborn
-PIL
+Pillow
+imbalanced-learn
