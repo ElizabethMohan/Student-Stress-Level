@@ -3,7 +3,6 @@ scikit-learn
 pandas
 numpy
 matplotlib
-pickle
 xgboost
 seaborn
 Pillow
