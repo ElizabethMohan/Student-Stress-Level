@@ -72,7 +72,7 @@ def main():
         bullying_str = st.selectbox(":blue[Bullying Experience Level]", options=bullying_options)
         bullying = bullying_options.index(bullying_str) - 1 if bullying_str != 'Select an option' else None
 
-    features = [anxiety, s_esteem, depression, headache, sleep, safety, basic_needs, academic_performance,
+    features = [anxiety, s_esteem, depression, headache, sleep, academic_performance,
     future_career_concerns, bullying]
     scaler = pickle.load(open('./minmax.sav', 'rb'))
     model= pickle.load(open('./modelsvc.sav', 'rb'))
